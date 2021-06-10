@@ -1,0 +1,5 @@
+<% if logged_in? %>
+  <%= render "static_pages/create_micropost_page" %>
+<% else %>
+  <%= render 'static_pages/unlogged_user_home_page' %>
+<% end %>
